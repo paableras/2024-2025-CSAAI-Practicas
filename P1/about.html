@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMADOR</title>
+
+       <!-- Hoja de estilo -->
+   <link rel="stylesheet" href="about.css">
+   <link rel="icon" href="imagenes/icon.jpg">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"> 
+
+</head>
+<body>
+    <h1>Amador</h1>
+
+    <div class="fila">
+        <div class="columna izquierda">
+          <h2>Me presento, soy Amador Rivas.</h2>
+          <p>Soy mundialmente conocido por ser el Capitan Salami, deja que te cuente más sobre mi. <br>
+            Tengo 4 hijos, Carlota, Nano, Rodrigo y Pollete, bueno el último no es mio, es de un vecino, El doctor Ventura, pero lo quiero como si lo fuese.
+            Vengo de una familia de Albacete, somos 12 hermanos pero no nos vemos nunca.
+            No tengo cerebro, mi cerebro es como un coco, tengo un hilillo de neuronas que es la corteza del coco pero por dentro es agüilla <br>
+            Estuve casado con Maite, la cookie, pero pasé muchos sin sudores, asi que prefiero estar solo <br>
+          </p>
+          <div class="logo"> 
+            <img id="gif1" src="imagenes/amadorGift.gif" alt="Amador gif">
+          </div>
+          <p>
+            <br>
+            Soy una persona con muchos amigos. <br>
+          </p>
+          <p>
+            Aquí les presento a los leones, nos reunimos todos los dias en el bar para tratar temas de suma importancia. <br>
+          </p>
+          <img id="img2" src="imagenes/imagen4.jpeg" alt="Leones" width="70%" height="70%">
+          <p>
+            El que esta a mi lado es Leo, un pesado, le siguen Javi y su padre el hombre cojín y el que se encuentyra detrás de la barra es mente fria. <br>
+          </p>
+        </div>          
+          
+        <div class="columna derecha">
+          <p>
+          Forme un grupo con mi hermano los sycomotronic y compusimos un hit mundial, el Mandanga Style, aunque nos separamos porqué eramos incompatibles
+          para el trabajo en equipo, saltaron algunas chispas
+        </p>
+        <div>
+            <h2>Mandanga Style</h2>
+            <button onclick="playMusic()">Reproducir Mandanga Style</button>
+            <audio id="audio" src="Mandanga Style.mp3"></audio>
+        </div>
+        
+        <script>
+            function playMusic() {
+                var audio = document.getElementById("audio");
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                }
+                
+            }
+        </script>
+        <!--<img id="img2" src="imagenes/imagen5.jpeg" alt="Sicomotronic" width="70%" height="70%"> -->
+        <p>
+          También soy un gran deportista, forme un equipo de fútbol con los leones, que ganamos el cvampeonato aunque falle un penailti
+          porqué se me resbalo el pie de apollo.También fui monitor de body combat, te miro y te golpeo. 
+          <div class="iresponsive">
+            <img id="img2" src="imagenes/imagen6.jpeg" alt="futbol" width="90%" height="90%">
+          </div>
+          <div class="iresponsive">
+              <img id="img2" src="imagenes/imagen7.jpeg" alt="body combat" width="100%" height="90%">
+          </div>
+        </p>
+      </div>
+    </div>
+
+    
+    <div class="fila">
+      <div id="dos" class="columna derecha">
+        <p>
+          Pues este soy yo, el gran Amador Rivas.
+          <br>
+          Esto ha sido todo, espero que os haya encantado el capitan salami. Aquí os dejo una foto con mi brother <br>
+          <div class="logo">
+            <img id="img2" src="imagenes/imagen5.jpeg" alt="feliz" width="90%" height="90%">
+          </div>
+          <br>
+          <a href="index.html">
+            <button>Volver al CV</button>
+
+        </p>
+      </div>
+    </div>
+    
+</body>
+</html>
