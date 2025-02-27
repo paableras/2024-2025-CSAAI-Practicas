@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+  }
+
+p {
+  background-color: whitesmoke;
+  margin: 2%;  
+  padding: 3%;
+}
+
+h1 {
+    background-color:darkgoldenrod ;
+    color: aliceblue;
+}

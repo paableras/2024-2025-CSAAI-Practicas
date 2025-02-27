@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+    color:black;
+  }
+  
+  .migrupo {
+    background-color: blue;
+    color: white;
+    font-size: small;
+  }
+
+  .miotrogrupo {
+    font-size: large;
+  }
+  
+  p {
+    background-color: orange;
+  }
