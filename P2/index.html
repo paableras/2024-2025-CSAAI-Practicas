@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Clave Secreta</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>¡Adivina la Clave Secreta!</h1>
+    
+    <div class="clave" id="clave">
+        <span class="asterisco">*</span>
+        <span class="asterisco">*</span>
+        <span class="asterisco">*</span>
+        <span class="asterisco">*</span>
+    </div>
+    
+    <div class="contador" id="contador">Tiempo: 00:00:00</div>
+    <div class="displays">
+        <div id="display">Intentos restantes: 10</div>
+    </div>
+    
+    <div class="botones">
+        <div class="fila">
+            <button class="num-btn">0</button>
+            <button class="num-btn">1</button>
+            <button class="num-btn">2</button>
+            <button class="num-btn">3</button>
+            <button class="num-btn">4</button>
+        </div>
+        <div class="fila">
+            <button class="num-btn">5</button>
+            <button class="num-btn">6</button>
+            <button class="num-btn">7</button>
+            <button class="num-btn">8</button>
+            <button class="num-btn">9</button>
+        </div>
+    </div>
+    
+    <div class="fila">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+    </div>
+    
+    <script src="crono.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
