@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juego de Memoria</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>🧠 Juego de Memoria</h1>
+      <div class="controls">
+        <label for="size">Tamaño del tablero:</label>
+        <select id="size">
+          <option value="2">2x2</option>
+          <option value="4" selected>4x4</option>
+          <option value="6">6x6</option>
+        </select>
+        <button id="start-btn">Comenzar</button>
+        <button id="reset-btn" disabled>Reiniciar</button>
+      </div>
+
+      <div class="stats">
+        <p>Movimientos: <span id="moves">0</span></p>
+        <p>Tiempo: <span id="time">0</span> sec</p>
+      </div>
+    </header>
+
+    <main>
+      <div id="game-board" class="board"></div>
+    </main>
+
+    <div id="message" class="hidden"></div>
+  </div>
+
+  <script src="index.js"></script>
+  <audio id="bg-music" src="cancion.mp3" loop autoplay></audio>
+
+</body>
+</html>
