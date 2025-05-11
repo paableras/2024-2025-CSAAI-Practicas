@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Red Multimedia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('fondo.jpg'); background-size: cover;">
+  <div id="controls">
+    <button id="btnGenerar">Generar Red</button>
+    <button id="btnCalcular">Calcular ruta</button>
+    <div id="info">
+      <p id="nodosInfo">0 nodos</p>
+      <p id="tiempoInfo">tiempo total: 0 sec</p>
+      <p id="mensaje"></p>
+    </div>
+  </div>
+
+  <canvas id="canvas" width="800" height="400"></canvas>
+
+  <script src="dijkstra.js"></script>
+  <script src="red.js"></script>
+</body>
+</html>
